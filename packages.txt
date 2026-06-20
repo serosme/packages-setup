@@ -1,0 +1,31 @@
+git clone --depth 1 https://github.com/ScoopInstaller/Main.git .\scoop\buckets\main\
+git clone --depth 1 https://github.com/ScoopInstaller/Extras.git .\scoop\buckets\extras\
+git clone --depth 1 https://github.com/ScoopInstaller/Versions.git .\scoop\buckets\versions\
+git clone --depth 1 https://github.com/serosme/tools.git .\scoop\buckets\tools\
+
+scoop install main/7zip
+scoop install extras/flclash
+scoop install main/gh
+scoop install main/git
+scoop install extras/helium
+scoop install extras/idea
+scoop install extras/localsend
+scoop install main/mise
+scoop install main/openlist
+scoop install extras/snipaste
+scoop install tools/tools
+scoop install extras/vscode
+
+winget install -e --id Microsoft.VCRedist.2005.x64
+winget install -e --id Microsoft.VCRedist.2005.x86
+winget install -e --id Microsoft.VCRedist.2008.x64
+winget install -e --id Microsoft.VCRedist.2008.x86
+winget install -e --id Microsoft.VCRedist.2010.x64
+winget install -e --id Microsoft.VCRedist.2010.x86
+winget install -e --id Microsoft.VCRedist.2012.x64
+winget install -e --id Microsoft.VCRedist.2012.x86
+winget install -e --id Microsoft.VCRedist.2013.x64
+winget install -e --id Microsoft.VCRedist.2013.x86
+winget install -e --id Microsoft.VCRedist.2015+.x64
+winget install -e --id Microsoft.VCRedist.2015+.x86
+winget install -e --id Rime.Weasel
