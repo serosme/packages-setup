@@ -12,6 +12,7 @@ scoop install extras/idea
 scoop install extras/localsend
 scoop install main/mise
 scoop install main/openlist
+scoop install main/pi-coding-agent
 scoop install extras/snipaste
 scoop install tools/tools
 scoop install extras/vscode
