@@ -25,3 +25,5 @@ mise use -g gh
 mise use -g github:zsuroy/ctty
 mise use -g java@temurin-25
 mise use -g node@24
+
+npm install -g npm-check-updates
