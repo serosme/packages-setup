@@ -25,5 +25,6 @@ mise use -g gh
 mise use -g github:zsuroy/ctty
 mise use -g java@temurin-25
 mise use -g node@24
+mise use -g npm:markdownlint-cli2
 mise use -g npm:npm-check-updates
 mise use -g pnpm
